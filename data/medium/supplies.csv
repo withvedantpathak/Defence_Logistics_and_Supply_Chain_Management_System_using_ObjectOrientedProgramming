@@ -1,0 +1,13 @@
+id,name,category,unit_weight_kg
+MED-KIT,Medical Kit,MEDICAL,2.5
+OXY-CYL,Oxygen Cylinder,MEDICAL,12.0
+IV-FLUID,IV Fluid Pack,MEDICAL,1.0
+RATION,Ration Pack,FOOD,1.2
+WATER-20L,Drinking Water 20L,FOOD,20.0
+DIESEL-DRUM,Diesel Drum 200L,FUEL,180.0
+PETROL-DRUM,Petrol Drum 200L,FUEL,150.0
+TYRE-SET,Vehicle Tyre,SPARES,60.0
+ENGINE-PART,Engine Spare Kit,SPARES,35.0
+RADIO-SET,Field Radio Set,SPARES,8.0
+TENT-6P,Tent 6-person,SHELTER,45.0
+BLANKET,Blanket,SHELTER,2.0

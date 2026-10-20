@@ -1,0 +1,4 @@
+id,type,home_base,current_base,capacity_kg,speed_kmph,status
+TRK-1,Truck,PUN,PUN,3000,45,AVAILABLE
+TRK-2,Truck,MUM,MUM,5000,45,AVAILABLE
+VAN-1,MedicalVan,NSK,NSK,800,60,AVAILABLE

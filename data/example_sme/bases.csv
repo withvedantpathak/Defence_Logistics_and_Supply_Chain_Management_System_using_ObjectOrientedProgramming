@@ -1,0 +1,4 @@
+id,name,city,lat,lon,capacity_units
+PUN,Pune Warehouse,Pune,18.52,73.86,3000
+NSK,Nashik Warehouse,Nashik,19.99,73.79,2500
+MUM,Mumbai Warehouse,Mumbai,19.08,72.88,4000

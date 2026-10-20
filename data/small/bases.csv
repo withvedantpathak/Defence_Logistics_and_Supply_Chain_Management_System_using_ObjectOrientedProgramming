@@ -1,0 +1,7 @@
+id,name,city,lat,lon,capacity_units
+PUN,Pune Logistics Node,Pune,18.52,73.86,5500
+MUM,Mumbai Logistics Node,Mumbai,19.08,72.88,4700
+NAG,Nagpur Logistics Node,Nagpur,21.15,79.09,8500
+DEL,Delhi Logistics Node,Delhi,28.61,77.21,8300
+JAI,Jaipur Logistics Node,Jaipur,26.91,75.79,3300
+LEH,Leh Logistics Node,Leh,34.15,77.58,3500

@@ -1,0 +1,11 @@
+target/
+*.class
+results/tmp/
+_sync/
+out/
+dist/
+reports/
+.idea/
+.vscode/
+*.log
+__pycache__/

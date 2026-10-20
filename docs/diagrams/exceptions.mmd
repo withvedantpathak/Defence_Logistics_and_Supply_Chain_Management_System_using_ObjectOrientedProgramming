@@ -1,0 +1,11 @@
+classDiagram
+direction LR
+class LogisticsException {
+  <<checked>>
+}
+LogisticsException <|-- InvalidIdException
+LogisticsException <|-- InsufficientStockException
+LogisticsException <|-- NoVehicleAvailableException
+LogisticsException <|-- InvalidStateTransitionException
+LogisticsException <|-- ValidationException
+LogisticsException <|-- DataFormatException

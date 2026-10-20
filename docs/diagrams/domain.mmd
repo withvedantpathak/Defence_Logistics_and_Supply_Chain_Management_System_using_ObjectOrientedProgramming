@@ -1,0 +1,86 @@
+classDiagram
+direction TB
+class Trackable {
+  <<interface>>
+  +id() String
+  +statusLabel() String
+  +locationLabel() String
+}
+class Deliverable {
+  <<interface>>
+  +dispatch(hour)
+  +complete(hour)
+  +fail(reason, hour)
+}
+class Persistable {
+  <<interface>>
+  +csvHeader() String
+  +toCsvRow() String
+}
+class Vehicle {
+  <<abstract>>
+  -id : String
+  -currentBaseId : String
+  -capacityKg : int
+  -speedKmph : int
+  -status : VehicleStatus
+  +typeName()* String
+  +canCarry(cat)* boolean
+  +loadingHours() double
+  +unitsPerTrip(cat, unitKg) int
+  +estimateHours(km, cat) double  «template method»
+}
+class Truck
+class FuelTruck
+class MedicalVan
+class Helicopter
+class Base {
+  -id : String
+  -name : String
+  -location : Location
+}
+class Supply {
+  -id : String
+  -category : SupplyCategory
+  -unitWeightKg : double
+}
+class InventoryItem {
+  -qty : int
+  -reserved : int
+  -reorderLevel : int
+  +available() int
+  +surplus() int
+  +shortage() int
+}
+class SupplyRequest {
+  -qty : int
+  -fulfilledQty : int
+  -priority : Priority
+  -status : RequestStatus
+}
+class Delivery {
+  -qty : int
+  -status : DeliveryStatus
+  -etaHour : long
+  -distanceKm : double
+}
+Vehicle <|-- Truck
+Vehicle <|-- FuelTruck
+Vehicle <|-- MedicalVan
+Vehicle <|-- Helicopter
+Trackable <|.. Vehicle
+Trackable <|.. Delivery
+Deliverable <|.. Delivery
+Persistable <|.. Vehicle
+Persistable <|.. Delivery
+Persistable <|.. Base
+Persistable <|.. Supply
+Persistable <|.. SupplyRequest
+Persistable <|.. InventoryItem
+Base "1" o-- "*" InventoryItem : stocks
+InventoryItem "*" --> "1" Supply
+SupplyRequest "*" --> "1" Base : requester
+SupplyRequest "*" --> "1" Supply
+Delivery "*" --> "1" SupplyRequest : serves
+Delivery "*" --> "1" Vehicle : uses
+Delivery "*" --> "2" Base : source and destination

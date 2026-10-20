@@ -1,0 +1,118 @@
+# Paired comparisons (Wilcoxon signed-rank, two-sided, paired by seed; vehicle strategy FASTEST for donor tests)
+NEAREST vs SURPLUS | small | avg_lead_h: mean A=24.298 B=26.451 diff=-2.153 Wilcoxon p=0.002367 n=30 p_holm=0.04735
+NEAREST vs BALANCED | small | avg_lead_h: mean A=24.298 B=22.883 diff=+1.414 Wilcoxon p=0.06356 n=30 p_holm=0.7627
+NEAREST vs RANDOM | small | avg_lead_h: mean A=24.298 B=33.973 diff=-9.675 Wilcoxon p=5.588e-09 n=30 p_holm=3.241e-07
+BALANCED vs SURPLUS | small | avg_lead_h: mean A=22.883 B=26.451 diff=-3.568 Wilcoxon p=3.79e-06 n=30 p_holm=0.0001549
+NEAREST vs SURPLUS | small | avg_lead_critical_h: mean A=19.118 B=27.040 diff=-7.922 Wilcoxon p=8.836e-06 n=29 p_holm=0.0003181
+NEAREST vs BALANCED | small | avg_lead_critical_h: mean A=19.118 B=17.075 diff=+2.043 Wilcoxon p=0.216 n=29 p_holm=1
+NEAREST vs RANDOM | small | avg_lead_critical_h: mean A=19.118 B=33.907 diff=-14.789 Wilcoxon p=4.225e-06 n=29 p_holm=0.0001563
+BALANCED vs SURPLUS | small | avg_lead_critical_h: mean A=17.075 B=27.040 diff=-9.964 Wilcoxon p=3.779e-06 n=29 p_holm=0.0001549
+NEAREST vs SURPLUS | small | fulfilment_rate: mean A=0.975 B=0.982 diff=-0.007 Wilcoxon p=0.04109 n=30 p_holm=0.5752
+NEAREST vs BALANCED | small | fulfilment_rate: mean A=0.975 B=0.982 diff=-0.007 Wilcoxon p=0.02902 n=30 p_holm=0.4353
+NEAREST vs RANDOM | small | fulfilment_rate: mean A=0.975 B=0.972 diff=+0.003 Wilcoxon p=0.5261 n=30 p_holm=1
+BALANCED vs SURPLUS | small | fulfilment_rate: mean A=0.982 B=0.982 diff=-0.001 Wilcoxon p=0.8875 n=30 p_holm=1
+NEAREST vs SURPLUS | small | total_km: mean A=36184.207 B=45778.283 diff=-9594.077 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+NEAREST vs BALANCED | small | total_km: mean A=36184.207 B=37843.753 diff=-1659.547 Wilcoxon p=0.04265 n=30 p_holm=0.5752
+NEAREST vs RANDOM | small | total_km: mean A=36184.207 B=57239.197 diff=-21054.990 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+BALANCED vs SURPLUS | small | total_km: mean A=37843.753 B=45778.283 diff=-7934.530 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+NEAREST vs SURPLUS | medium | avg_lead_h: mean A=32.184 B=36.340 diff=-4.156 Wilcoxon p=1.824e-05 n=30 p_holm=0.0005432
+NEAREST vs BALANCED | medium | avg_lead_h: mean A=32.184 B=29.219 diff=+2.965 Wilcoxon p=0.0005548 n=30 p_holm=0.01165
+NEAREST vs RANDOM | medium | avg_lead_h: mean A=32.184 B=48.709 diff=-16.525 Wilcoxon p=9.313e-09 n=30 p_holm=5.215e-07
+BALANCED vs SURPLUS | medium | avg_lead_h: mean A=29.219 B=36.340 diff=-7.121 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+NEAREST vs SURPLUS | medium | avg_lead_critical_h: mean A=20.034 B=28.579 diff=-8.545 Wilcoxon p=1.304e-08 n=30 p_holm=7.171e-07
+NEAREST vs BALANCED | medium | avg_lead_critical_h: mean A=20.034 B=21.383 diff=-1.348 Wilcoxon p=0.1519 n=30 p_holm=1
+NEAREST vs RANDOM | medium | avg_lead_critical_h: mean A=20.034 B=36.465 diff=-16.431 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+BALANCED vs SURPLUS | medium | avg_lead_critical_h: mean A=21.383 B=28.579 diff=-7.197 Wilcoxon p=5.588e-09 n=30 p_holm=3.241e-07
+NEAREST vs SURPLUS | medium | fulfilment_rate: mean A=0.987 B=0.990 diff=-0.003 Wilcoxon p=0.1325 n=30 p_holm=1
+NEAREST vs BALANCED | medium | fulfilment_rate: mean A=0.987 B=0.991 diff=-0.005 Wilcoxon p=0.01339 n=30 p_holm=0.2142
+NEAREST vs RANDOM | medium | fulfilment_rate: mean A=0.987 B=0.968 diff=+0.019 Wilcoxon p=1.61e-05 n=30 p_holm=0.0005432
+BALANCED vs SURPLUS | medium | fulfilment_rate: mean A=0.991 B=0.990 diff=+0.001 Wilcoxon p=0.2068 n=30 p_holm=1
+NEAREST vs SURPLUS | medium | total_km: mean A=238185.413 B=314876.420 diff=-76691.007 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+NEAREST vs BALANCED | medium | total_km: mean A=238185.413 B=247883.757 diff=-9698.343 Wilcoxon p=1.598e-05 n=30 p_holm=0.0005432
+NEAREST vs RANDOM | medium | total_km: mean A=238185.413 B=385638.657 diff=-147453.243 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+BALANCED vs SURPLUS | medium | total_km: mean A=247883.757 B=314876.420 diff=-66992.663 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+NEAREST vs SURPLUS | large | avg_lead_h: mean A=34.770 B=40.037 diff=-5.267 Wilcoxon p=1.863e-08 n=30 p_holm=9.872e-07
+NEAREST vs BALANCED | large | avg_lead_h: mean A=34.770 B=28.437 diff=+6.333 Wilcoxon p=1.863e-08 n=30 p_holm=9.872e-07
+NEAREST vs RANDOM | large | avg_lead_h: mean A=34.770 B=55.677 diff=-20.907 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+BALANCED vs SURPLUS | large | avg_lead_h: mean A=28.437 B=40.037 diff=-11.600 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+NEAREST vs SURPLUS | large | avg_lead_critical_h: mean A=15.893 B=25.515 diff=-9.621 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+NEAREST vs BALANCED | large | avg_lead_critical_h: mean A=15.893 B=16.146 diff=-0.253 Wilcoxon p=0.3707 n=30 p_holm=1
+NEAREST vs RANDOM | large | avg_lead_critical_h: mean A=15.893 B=32.647 diff=-16.754 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+BALANCED vs SURPLUS | large | avg_lead_critical_h: mean A=16.146 B=25.515 diff=-9.369 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+NEAREST vs SURPLUS | large | fulfilment_rate: mean A=0.983 B=0.988 diff=-0.005 Wilcoxon p=0.009869 n=30 p_holm=0.1678
+NEAREST vs BALANCED | large | fulfilment_rate: mean A=0.983 B=0.993 diff=-0.010 Wilcoxon p=3.787e-05 n=30 p_holm=0.0009846
+NEAREST vs RANDOM | large | fulfilment_rate: mean A=0.983 B=0.955 diff=+0.028 Wilcoxon p=1.722e-06 n=30 p_holm=8.387e-05
+BALANCED vs SURPLUS | large | fulfilment_rate: mean A=0.993 B=0.988 diff=+0.005 Wilcoxon p=0.0001568 n=30 p_holm=0.003449
+NEAREST vs SURPLUS | large | total_km: mean A=1188415.747 B=1686870.420 diff=-498454.673 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+NEAREST vs BALANCED | large | total_km: mean A=1188415.747 B=1219000.503 diff=-30584.757 Wilcoxon p=0.0001374 n=30 p_holm=0.00316
+NEAREST vs RANDOM | large | total_km: mean A=1188415.747 B=1958480.933 diff=-770065.187 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+BALANCED vs SURPLUS | large | total_km: mean A=1219000.503 B=1686870.420 diff=-467869.917 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+
+# Vehicle strategy comparisons (donor strategy NEAREST)
+FASTEST vs SMALLEST | small | avg_lead_h: mean A=24.298 B=28.139 diff=-3.841 Wilcoxon p=3.88e-06 n=30 p_holm=0.0001549
+FASTEST vs RANDOM | small | avg_lead_h: mean A=24.298 B=37.777 diff=-13.479 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+FASTEST vs SMALLEST | small | avg_lead_critical_h: mean A=19.118 B=23.203 diff=-4.085 Wilcoxon p=0.002891 n=29 p_holm=0.05493
+FASTEST vs RANDOM | small | avg_lead_critical_h: mean A=19.118 B=31.901 diff=-12.783 Wilcoxon p=2.618e-05 n=29 p_holm=0.0007331
+FASTEST vs SMALLEST | small | critical_within_24h: mean A=0.741 B=0.596 diff=+0.145 Wilcoxon p=0.0069 n=29 p_holm=0.1242
+FASTEST vs RANDOM | small | critical_within_24h: mean A=0.741 B=0.394 diff=+0.347 Wilcoxon p=3.537e-05 n=29 p_holm=0.0009549
+FASTEST vs SMALLEST | small | utilisation: mean A=0.234 B=0.257 diff=-0.022 Wilcoxon p=7.911e-05 n=30 p_holm=0.001899
+FASTEST vs RANDOM | small | utilisation: mean A=0.234 B=0.360 diff=-0.125 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+FASTEST vs SMALLEST | small | total_km: mean A=36184.207 B=33264.490 diff=+2919.717 Wilcoxon p=8.009e-08 n=30 p_holm=4.005e-06
+FASTEST vs RANDOM | small | total_km: mean A=36184.207 B=36391.367 diff=-207.160 Wilcoxon p=0.5561 n=30 p_holm=1
+FASTEST vs SMALLEST | medium | avg_lead_h: mean A=32.184 B=38.887 diff=-6.703 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+FASTEST vs RANDOM | medium | avg_lead_h: mean A=32.184 B=56.384 diff=-24.200 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+FASTEST vs SMALLEST | medium | avg_lead_critical_h: mean A=20.034 B=24.385 diff=-4.350 Wilcoxon p=1.598e-05 n=30 p_holm=0.0005432
+FASTEST vs RANDOM | medium | avg_lead_critical_h: mean A=20.034 B=39.643 diff=-19.609 Wilcoxon p=1.733e-06 n=30 p_holm=8.387e-05
+FASTEST vs SMALLEST | medium | critical_within_24h: mean A=0.788 B=0.660 diff=+0.128 Wilcoxon p=5.125e-05 n=30 p_holm=0.001281
+FASTEST vs RANDOM | medium | critical_within_24h: mean A=0.788 B=0.317 diff=+0.471 Wilcoxon p=1.712e-06 n=30 p_holm=8.387e-05
+FASTEST vs SMALLEST | medium | utilisation: mean A=0.258 B=0.301 diff=-0.043 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+FASTEST vs RANDOM | medium | utilisation: mean A=0.258 B=0.491 diff=-0.232 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+FASTEST vs SMALLEST | medium | total_km: mean A=238185.413 B=222687.257 diff=+15498.157 Wilcoxon p=1.863e-08 n=30 p_holm=9.872e-07
+FASTEST vs RANDOM | medium | total_km: mean A=238185.413 B=243566.957 diff=-5381.543 Wilcoxon p=0.2449 n=30 p_holm=1
+FASTEST vs SMALLEST | large | avg_lead_h: mean A=34.770 B=42.556 diff=-7.786 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+FASTEST vs RANDOM | large | avg_lead_h: mean A=34.770 B=64.761 diff=-29.991 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+FASTEST vs SMALLEST | large | avg_lead_critical_h: mean A=15.893 B=21.055 diff=-5.162 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+FASTEST vs RANDOM | large | avg_lead_critical_h: mean A=15.893 B=36.678 diff=-20.785 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+FASTEST vs SMALLEST | large | critical_within_24h: mean A=0.838 B=0.725 diff=+0.113 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+FASTEST vs RANDOM | large | critical_within_24h: mean A=0.838 B=0.391 diff=+0.446 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+FASTEST vs SMALLEST | large | utilisation: mean A=0.305 B=0.379 diff=-0.074 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+FASTEST vs RANDOM | large | utilisation: mean A=0.305 B=0.670 diff=-0.365 Wilcoxon p=1.733e-06 n=30 p_holm=8.387e-05
+FASTEST vs SMALLEST | large | total_km: mean A=1188415.747 B=1132543.217 diff=+55872.530 Wilcoxon p=3.79e-06 n=30 p_holm=0.0001549
+FASTEST vs RANDOM | large | total_km: mean A=1188415.747 B=1330082.073 diff=-141666.327 Wilcoxon p=1.304e-08 n=30 p_holm=7.171e-07
+
+# Coordinated (NEAREST+FASTEST) versus uncoordinated baseline (RANDOM+RANDOM)
+NEAREST+FASTEST vs RANDOM+RANDOM | small | avg_lead_h: mean A=24.298 B=46.167 diff=-21.870 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+NEAREST+FASTEST vs RANDOM+RANDOM | small | fulfilment_rate: mean A=0.975 B=0.971 diff=+0.004 Wilcoxon p=0.187 n=30 p_holm=1
+NEAREST+FASTEST vs RANDOM+RANDOM | small | unit_fill_rate: mean A=0.990 B=0.988 diff=+0.002 Wilcoxon p=0.2489 n=30 p_holm=1
+NEAREST+FASTEST vs RANDOM+RANDOM | small | total_km: mean A=36184.207 B=55900.877 diff=-19716.670 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+NEAREST+FASTEST vs RANDOM+RANDOM | small | critical_within_24h: mean A=0.741 B=0.331 diff=+0.411 Wilcoxon p=1.798e-05 n=29 p_holm=0.0005432
+NEAREST+FASTEST vs RANDOM+RANDOM | medium | avg_lead_h: mean A=32.184 B=73.932 diff=-41.748 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+NEAREST+FASTEST vs RANDOM+RANDOM | medium | fulfilment_rate: mean A=0.987 B=0.966 diff=+0.021 Wilcoxon p=1.737e-05 n=30 p_holm=0.0005432
+NEAREST+FASTEST vs RANDOM+RANDOM | medium | unit_fill_rate: mean A=0.996 B=0.990 diff=+0.006 Wilcoxon p=1.229e-05 n=30 p_holm=0.0004302
+NEAREST+FASTEST vs RANDOM+RANDOM | medium | total_km: mean A=238185.413 B=381758.800 diff=-143573.387 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+NEAREST+FASTEST vs RANDOM+RANDOM | medium | critical_within_24h: mean A=0.788 B=0.250 diff=+0.538 Wilcoxon p=1.732e-06 n=30 p_holm=8.387e-05
+NEAREST+FASTEST vs RANDOM+RANDOM | large | avg_lead_h: mean A=34.770 B=84.530 diff=-49.760 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+NEAREST+FASTEST vs RANDOM+RANDOM | large | fulfilment_rate: mean A=0.983 B=0.953 diff=+0.030 Wilcoxon p=1.727e-06 n=30 p_holm=8.387e-05
+NEAREST+FASTEST vs RANDOM+RANDOM | large | unit_fill_rate: mean A=0.995 B=0.986 diff=+0.009 Wilcoxon p=1.731e-06 n=30 p_holm=8.387e-05
+NEAREST+FASTEST vs RANDOM+RANDOM | large | total_km: mean A=1188415.747 B=2042743.080 diff=-854327.333 Wilcoxon p=1.863e-09 n=30 p_holm=1.732e-07
+NEAREST+FASTEST vs RANDOM+RANDOM | large | critical_within_24h: mean A=0.838 B=0.317 diff=+0.521 Wilcoxon p=1.733e-06 n=30 p_holm=8.387e-05
+
+# Holm-Bonferroni over 93 paired tests: 81 below 0.05 uncorrected, 74 below 0.05 after correction
+
+# Why requests stay unfulfilled (all runs; reasons are exclusive and sum to the unfulfilled total)
+small | all strategies: runs=360 requests=14400 unfulfilled=320 (2.22%) stock-limited=270 (84.4%) waiting-for-vehicle=7 (2.2%) in-flight-at-horizon=43 (13.4%) unexplained=0
+small | coordinated (non-RANDOM donor, non-RANDOM vehicle): runs=180 requests=7200 unfulfilled=146 (2.03%) stock-limited=128 (87.7%) waiting-for-vehicle=3 (2.1%) in-flight-at-horizon=15 (10.3%) unexplained=0
+small | baseline (RANDOM+RANDOM): runs=30 requests=1200 unfulfilled=35 (2.92%) stock-limited=27 (77.1%) waiting-for-vehicle=1 (2.9%) in-flight-at-horizon=7 (20.0%) unexplained=0
+medium | all strategies: runs=360 requests=72000 unfulfilled=1211 (1.68%) stock-limited=268 (22.1%) waiting-for-vehicle=485 (40.0%) in-flight-at-horizon=458 (37.8%) unexplained=0
+medium | coordinated (non-RANDOM donor, non-RANDOM vehicle): runs=180 requests=36000 unfulfilled=394 (1.09%) stock-limited=113 (28.7%) waiting-for-vehicle=105 (26.6%) in-flight-at-horizon=176 (44.7%) unexplained=0
+medium | baseline (RANDOM+RANDOM): runs=30 requests=6000 unfulfilled=205 (3.42%) stock-limited=30 (14.6%) waiting-for-vehicle=110 (53.7%) in-flight-at-horizon=65 (31.7%) unexplained=0
+large | all strategies: runs=360 requests=360000 unfulfilled=7686 (2.14%) stock-limited=1224 (15.9%) waiting-for-vehicle=4931 (64.2%) in-flight-at-horizon=1531 (19.9%) unexplained=0
+large | coordinated (non-RANDOM donor, non-RANDOM vehicle): runs=180 requests=180000 unfulfilled=2247 (1.25%) stock-limited=526 (23.4%) waiting-for-vehicle=1113 (49.5%) in-flight-at-horizon=608 (27.1%) unexplained=0
+large | baseline (RANDOM+RANDOM): runs=30 requests=30000 unfulfilled=1400 (4.67%) stock-limited=128 (9.1%) waiting-for-vehicle=1079 (77.1%) in-flight-at-horizon=193 (13.8%) unexplained=0
+
+# Scalability (median over all 12 strategy pairs x seeds per scale)
+small: requests=40 median wall=3 ms -> 13333 requests/s; median heap in use=65 MB; simulated hours=404
+medium: requests=200 median wall=72 ms -> 2778 requests/s; median heap in use=61 MB; simulated hours=886
+large: requests=1000 median wall=912 ms -> 1096 requests/s; median heap in use=61 MB; simulated hours=1607
+
+runs=1080  seeds=30

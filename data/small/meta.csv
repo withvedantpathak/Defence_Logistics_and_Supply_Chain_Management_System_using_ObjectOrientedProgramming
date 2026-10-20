@@ -1,0 +1,8 @@
+key,value
+clock_hour,0
+next_request,1
+next_delivery,1
+source_strategy,NEAREST
+vehicle_strategy,FASTEST
+seed,42
+scale,small

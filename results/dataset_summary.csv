@@ -1,0 +1,4 @@
+scale,bases,supplies,inventory_cells,shortage_cells,surplus_cells,total_shortage_units,total_surplus_units,min_supply_coverage,vehicles,trucks,fuel_trucks,medical_vans,helicopters,scenario_requests,scenario_days,routine,urgent,critical
+small,6,8,48,8,39,860,10290,5.07,12,6,2,2,2,40,10,20,12,8
+medium,10,12,120,31,89,2114,11066,1.21,30,16,4,6,4,200,30,108,70,22
+large,12,12,144,35,109,3081,14133,1.2,60,30,9,12,9,1000,60,571,322,107

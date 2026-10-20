@@ -1,0 +1,4 @@
+id,requester_base,supply,qty,priority,day,hour
+S-0001,PUN,RICE-25,60,ROUTINE,0,9
+S-0002,NSK,FIRSTAID,15,URGENT,0,14
+S-0003,NSK,OIL-15,40,ROUTINE,1,10

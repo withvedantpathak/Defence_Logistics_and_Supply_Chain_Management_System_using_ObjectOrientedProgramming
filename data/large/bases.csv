@@ -1,0 +1,13 @@
+id,name,city,lat,lon,capacity_units
+PUN,Pune Logistics Node,Pune,18.52,73.86,4300
+MUM,Mumbai Logistics Node,Mumbai,19.08,72.88,7400
+NAG,Nagpur Logistics Node,Nagpur,21.15,79.09,4300
+DEL,Delhi Logistics Node,Delhi,28.61,77.21,5700
+JAI,Jaipur Logistics Node,Jaipur,26.91,75.79,4500
+LEH,Leh Logistics Node,Leh,34.15,77.58,3000
+GUW,Guwahati Logistics Node,Guwahati,26.14,91.74,6600
+CHE,Chennai Logistics Node,Chennai,13.08,80.27,7800
+KOL,Kolkata Logistics Node,Kolkata,22.57,88.36,6800
+BLR,Bengaluru Logistics Node,Bengaluru,12.97,77.59,5500
+AMB,Ambala Logistics Node,Ambala,30.38,76.78,3700
+SRI,Srinagar Logistics Node,Srinagar,34.08,74.80,3400
